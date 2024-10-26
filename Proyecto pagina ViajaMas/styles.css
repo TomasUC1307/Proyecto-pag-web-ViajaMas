@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+
+body {
+    font-family: "Arima", normal;
+    background-color: #6A9AB0;
+
+}
+
+.secciones{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.titulo-secciones{
+    font-family: "Arima", normal;
+    font-size: xx-large;
+    font-weight: 500;
+    justify-content: center;
+    
+}
+
+#titulo2{
+    text-align: center;
+    color: #001F3F;
+}
+
+.contenedores {
+    
+    display: flex;
+    flex-direction: row;
+    background-color: darkslategrey;
+    color: #f4f4f4;
+    align-items: center;
+    border-radius: 10px;
+    height: auto;
+    gap:10px;
+}
+
+#tarjetas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#Noruega{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.nombres{
+    font-size: 2em;
+    padding: 0.5% 3% 0.5% 3%;
+}
+
+.nombres-p{
+    margin-bottom: 10px;
+}
+
+.numeros {
+    display: flex;
+    padding: 1%;
+    font-size: xx-large;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    min-width: 80px;
+
+}
+
+.textos{
+    padding: 0.5% 3% 3% 3%;
+    text-align: justify;
+}
+
+
+.imagenes{
+    height: 300px;
+    width: 300px;
+    justify-items: right;
+    margin-left: auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    object-fit: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    background-color: #001F3F;
+    color: #EAD8B1;
+    padding: 20px;
+    text-align: left;
+    width:100%;
+    box-sizing: border-box;
+}
+
+
+.secciones {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(198, 116, 116, 0.1);
+}
+
+footer {
+    margin: 0;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    
+}
+
+ul#placesList {
+    list-style: none;
+    padding: 0;
+}
+
+
+@media (max-width: 768px) {
+    .contenedores {
+        flex-direction: column;
+    }
+
+    .titulo-secciones{
+        text-align: center;
+    }
+
+    .nombres{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .imagenes {
+        width: 100%;
+        height: auto;
+    }
+}
